@@ -1,0 +1,39 @@
+/* Contact.css */
+
+.contact {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  color: #646cff;
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.icon-link {
+  font-size: 1.8rem;
+  color: #444;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.icon-link:hover {
+  color: #646cff;
+  transform: scale(1.2);
+}
