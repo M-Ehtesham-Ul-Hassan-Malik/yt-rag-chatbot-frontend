@@ -2,38 +2,60 @@
 
 .contact {
   max-width: 800px;
-  margin: 60px auto;
+  margin: 80px auto;
   padding: 0 20px;
-  line-height: 1.7;
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #333;
 }
 
 .contact h1 {
-  font-size: 2rem;
-  color: #646cff;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #4f46e5; /* More elegant purple */
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
 }
 
 .contact a {
-  color: #646cff;
+  color: #4f46e5;
+  font-weight: 500;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #3730a3; /* Darker purple for hover */
 }
 
 .social-icons {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
   flex-wrap: wrap;
 }
 
 .icon-link {
-  font-size: 1.8rem;
-  color: #444;
-  transition: transform 0.2s, color 0.2s;
+  font-size: 2.2rem;
+  color: #555;
+  background: #f3f4f6; /* Soft background circle */
+  border-radius: 50%;
+  padding: 12px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-link:hover {
-  color: #646cff;
-  transform: scale(1.2);
+  color: white;
+  background: #4f46e5;
+  transform: translateY(-4px) scale(1.15);
+  box-shadow: 0 6px 12px rgba(79, 70, 229, 0.3);
 }
